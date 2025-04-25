@@ -1,0 +1,123 @@
+{
+    "adb": {
+        "adb_path": "/run/current-system/sw/bin/adb",
+        "address": "localhost:5555",
+        "config": {
+        }
+    },
+    "controller": {
+        "name": "安卓端"
+    },
+    "gpu": -1,
+    "resource": "国服",
+    "task": [
+        {
+            "name": "开始前任务",
+            "option": [
+            ]
+        },
+        {
+            "name": "结束前任务",
+            "option": [
+                {
+                    "name": "自动入浴",
+                    "value": "yes"
+                },
+                {
+                    "name": "自动领取任务奖励",
+                    "value": "yes"
+                },
+                {
+                    "name": "自动拆船",
+                    "value": "no"
+                },
+                {
+                    "name": "结束后关闭游戏",
+                    "value": "no"
+                }
+            ]
+        },
+        {
+            "name": "自动出征",
+            "option": [
+                {
+                    "name": "自动导航章节",
+                    "value": "第五章"
+                },
+                {
+                    "name": "自动导航关卡",
+                    "value": "第二关"
+                },
+                {
+                    "name": "战斗编队",
+                    "value": "第一编队"
+                },
+                {
+                    "name": "战斗阵型",
+                    "value": "单横阵"
+                },
+                {
+                    "name": "战斗无限次数",
+                    "value": "直到捞船达到上限停止"
+                },
+                {
+                    "name": "战斗大破/中破舰船处理",
+                    "value": "当编队存在中破舰船时终止战斗"
+                },
+                {
+                    "name": "门口SL目标1",
+                    "value": "重巡"
+                },
+                {
+                    "name": "门口SL目标2",
+                    "value": "重巡"
+                },
+                {
+                    "name": "允许追击",
+                    "value": "no"
+                },
+                {
+                    "name": "战斗点位",
+                    "value": "1"
+                },
+                {
+                    "name": "船舱满自动拆船",
+                    "value": "no"
+                },
+                {
+                    "name": "战斗使用军阶buff",
+                    "value": "不使用"
+                }
+            ]
+        },
+        {
+            "name": "开始前任务",
+            "option": [
+            ]
+        },
+        {
+            "name": "结束前任务",
+            "option": [
+                {
+                    "name": "自动入浴",
+                    "value": "yes"
+                },
+                {
+                    "name": "自动领取任务奖励",
+                    "value": "yes"
+                },
+                {
+                    "name": "自动拆船",
+                    "value": "no"
+                },
+                {
+                    "name": "结束后关闭游戏",
+                    "value": "yes"
+                }
+            ]
+        }
+    ],
+    "win32": {
+        "_placeholder": 0
+    }
+}

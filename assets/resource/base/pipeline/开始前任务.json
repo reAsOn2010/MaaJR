@@ -1,7 +1,7 @@
 {
     "开始唤醒": {
         "action": "StartApp",
-        "package": "com.huanmeng.zhanjian2/com.unity3d.player.UnityPlayerActivity",
+        "package": "com.huanmeng.zhanjian2/com.unity3d.player.UnityPlayerActivity --windowingMode 4",
         "post_delay": 5000,
         "next": [
             "打开游戏"
